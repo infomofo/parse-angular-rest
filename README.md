@@ -1,7 +1,7 @@
 parse-angular-rest
 ==================
 
-Provides an angular service for interacting with parse.com's REST api.
+A client for parse.com's REST api using angular. 
 
 Why did I write this?
 ---------------------
