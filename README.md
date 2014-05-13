@@ -45,5 +45,6 @@ app.constant("PARSE_CONFIG",{
 
 The following api calls are currently supported by the parse client.
 
-* *ParseClient.signUp* - takes 3 parameters, a username, a password, and an email address.  Returns "true" if the user was signed up or "false" if there was an error.
+* *ParseClient.signUp* - takes 3 parameters, a username, a password, and an email address. Returns a Promise of the user object.
+* *ParseClient.logIn* - takes 2 parameters, a username and a password.  Returns a Promise of the user object.
 
